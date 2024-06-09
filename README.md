@@ -1,4 +1,4 @@
 # javascript
  Estudando HTML CSS JavaScript
 
- E pretendo também estudar typeScript e tailwind CSS muito em breve
+ E pretendo também estudar tailwind CSS e constinuar evoluindo no mundo WEB
