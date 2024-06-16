@@ -24,6 +24,7 @@
 
 // lerDados();
 
+// //Exemplo 2
 async function obterNomeAPI(usuario){
     const urlAPI = `https://api.github.com/users/${usuario}`;
 
@@ -59,3 +60,16 @@ async function buscarUsuario(){
 }
 
 buscarUsuario();
+
+//Exemplo 3
+// async function AtualizarTempo(){
+//     while(true){
+//         const data = new Date();
+//         const hora = data.toLocaleTimeString();
+
+//         console.log("A hora atual: ", hora);
+
+//         await new Promise((resolve) => setTimeout(resolve, 1000));
+//     }
+// }
+//  AtualizarTempo()
