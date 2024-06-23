@@ -61,7 +61,7 @@ async function buscarUsuario(){
 }
 
 buscarUsuario();
-
+  
 //Exemplo 3
 // async function AtualizarTempo(){
 //     while(true){
