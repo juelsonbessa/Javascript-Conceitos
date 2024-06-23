@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="flex items-center justify-center">
+            <form id="form-cadastro" class="form">
+                <h2>Cadastro</h2>
+
+                <div class="">
+                    <div class="">
+                        <label for="nome">Primeiro Nome <span>*</span></label>
+                        <input type="text" id="nome" class="input-form">
+                        <span class="">O nome deve contar no minimo 3 caracteres</span>
+                    </div>
+                    <div class="">
+                        <label for="sobreNome">Sobrenome <span>*</span></label>
+                        <input type="text" id="sobreNome" class="input-form">
+                        <span class="">O nome deve contar no minimo 3 caracteres</span>
+                    </div>
+                </div>
+                <div class="">
+                    <label for="email">Endereço Email <span>*</span></label>
+                    <input type="email" id="email" class="input-form">
+                    <span class="">Digite um email válido</span>
+                </div>
+
+                <div class="">
+                    <label for="">Genero <span>*</span></label>
+                    <div class="">
+                        <div class="">
+                            <input type="radio" id="masculino" name="genero" checked="checked">
+                            <label for="masculino" >Masculino</label>
+                        </div>
+                        <div class="">
+                            <input type="radio" id="feminino" name="genero">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="">
+                    <label for="senha">Senha <span>*</span></label>
+                    <input type="password" id="senha" class="input-form">
+                    <span class="">Digite uma senha com no minimo 8 caracteres</span>
+                </div>
+
+                <button type="submit" id="enviarForm" class="input-submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

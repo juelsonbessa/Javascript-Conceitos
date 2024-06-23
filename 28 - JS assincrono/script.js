@@ -25,6 +25,7 @@
 // lerDados();
 
 // //Exemplo 2
+
 async function obterNomeAPI(usuario){
     const urlAPI = `https://api.github.com/users/${usuario}`;
 
