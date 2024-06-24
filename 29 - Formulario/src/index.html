@@ -10,50 +10,50 @@
 <body>
     <div class="container">
         <div class="flex justify-center items-center min-h-screen">
-            <form class="flex flex-col gap-4 shadow-2xl rounded-1xl p-8 w-580">
+            <form class="flex flex-col gap-4 shadow-2xl rounded-1xl p-8 w-831" id="form">
                 <h2 class="text-3xl tracking-wider text-center mb-4">Cadastro de usuario</h2>
 
                 <div class="flex flex-col md:flex-row gap-4">
                     <div class="input-column w-full">
-                        <label for="nome" class="label-input">Primeiro Nome <span class="span-rquired">*</span></label>
+                        <label for="nome" class="label-input">Primeiro Nome <span class="span-required">*</span></label>
 
                         <input type="text" id="nome" class="input-form">
                         
-                        <span class="span-required ">O nome deve contar no minimo 3 caracteres</span>
+                        <span class="span-required-error">O nome deve conter no minimo 3 caracteres</span>
                     </div>
                     <div class="input-column w-full">
-                        <label for="sobreNome" class="label-input">Sobrenome <span class="span-rquired">*</span></label>
+                        <label for="sobreNome" class="label-input">Sobrenome <span class="span-required">*</span></label>
 
                         <input type="text" id="sobreNome" class="input-form">
 
-                        <span class="span-required ">O nome deve contar no minimo 3 caracteres</span>
+                        <span class="span-required-error">O sobre nome deve conter no minimo 3 caracteres</span>
                     </div>
                 </div>
                 <div class="input-column">
-                    <label for="email" class="label-input">Endereço e-mail <span class="span-rquired">*</span></label>
+                    <label for="email" class="label-input">Endereço e-mail <span class="span-required">*</span></label>
 
-                    <input type="email" id="email" class="input-form">
+                    <input type="text" id="email" class="input-form">
 
-                    <span class="span-required">Digite um email válido</span>
+                    <span class="span-required-error">Digite um email válido</span>
                 </div>
 
                 <div class="input-column">
-                    <label for="senha" class="label-input">Senha <span class="span-rquired">*</span></label>
+                    <label for="senha" class="label-input">Senha <span class="span-required">*</span></label>
 
                     <input type="password" id="senha" class="input-form">
 
-                    <span class="span-required ">Digite uma senha com no minimo 8 caracteres</span>
+                    <span class="span-required-error">Digite uma senha com no minimo 8 caracteres</span>
                 </div>
 
                 <div class="input-column">
-                    <label for="confirmSenha" class="label-input">Confirmar Senha <span class="span-rquired">*</span></label>
+                    <label for="confirmSenha" class="label-input">Confirmar Senha <span class="span-required">*</span></label>
 
                     <input type="password" id="confirmSenha" class="input-form">
 
-                    <span class="span-required ">Digite uma senha com no minimo 8 caracteres</span>
+                    <span class="span-required-error">As senhas devem ser compátiveis</span>
                 </div>
 
-                <button type="submit" id="enviarForm" class="submit-btn">Cadastrar</button>
+                <button type="submit" id="send-Form" class="submit-btn">Cadastrar</button>
             </form>
         </div>
     </div>

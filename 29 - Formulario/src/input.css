@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-    .span-required {
-      @apply text-xs text-red-600 font-medium hidden;
+    .span-required-error {
+      @apply text-xs text-red-600 font-medium hidden duration-700;
     }
     .input-column {
         @apply flex flex-col gap-2;
     }
     .input-form {
-        @apply p-2 pl-2 outline-none border border-slate-200 rounded text-sm font-normal text-slate-700 focus:border-green-500;
+        @apply p-2 pl-2 outline-none border border-slate-200 rounded text-sm font-normal text-slate-700 duration-300;
     }
     .label-input {
         @apply text-sm font-medium text-slate-700;
@@ -18,7 +18,7 @@
     .submit-btn {
         @apply p-2 border rounded bg-green-500 text-white;
     }
-    .span-rquired {
+    .span-required {
         @apply text-red-600;
     }
 }
