@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .span-required {
+      @apply text-xs text-red-600;
+    }
+    .input-column {
+        @apply flex flex-col gap-2;
+    }
+    .input-form {
+        @apply p-1 outline-none rounded-mb;
+    }
+}
