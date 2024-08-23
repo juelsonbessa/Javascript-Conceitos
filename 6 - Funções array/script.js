@@ -41,11 +41,11 @@ console.log(arr)
 //indexOf
 console.log(arr.indexOf(5))
 
-//join -Transformar array em string
+//join - Transformar array em string
 var arr2 = ["o", "Juelson", "é", "Programador"];
 
 console.log(arr2.join(" "))
 
-//Reverse -Deixa o array em ordem decrescente
+//Reverse - Deixa o array em ordem decrescente
 console.log(arr2.reverse())
 
